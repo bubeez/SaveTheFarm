@@ -17,7 +17,7 @@ function gameRound(){
               <input type="submit" value="Submit">
             </form>
           </p>"
-    $cmd = $_POST["cmd"];
+    $cmd = readline("$_POST["cmd"]");
     $cmd =  strtolower($cmd);
     echo "\n";
     switch ($cmd) {
