@@ -44,37 +44,13 @@ Unfortunately, you have a lot of stuff to do today, so you can only devote about
 see what happens ;) </p>\n\n";
 
 echo "<p>
-        <form method="post">
+        <form method="get" action="index.php">
           <input type="text" name="cmd">
           <input type="submit" value="Submit">
         </form>
       </p>";
 
 // Play 25 rounds
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
 gameRound();
 
 
