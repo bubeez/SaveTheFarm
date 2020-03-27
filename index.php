@@ -44,7 +44,7 @@ Unfortunately, you have a lot of stuff to do today, so you can only devote about
 see what happens ;) </p>\n\n";
 
 echo "<p>
-        <form method="get" action="index.php">
+        <form method="post">
           <input type="text" name="cmd">
           <input type="submit" value="Submit">
         </form>

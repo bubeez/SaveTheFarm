@@ -11,7 +11,7 @@ function gameRound(){
     printStatus();
 
  //Read Command And Respond
-    $cmd = $_GET['cmd'];
+    $cmd = $_POST['cmd'];
     $cmd =  strtolower($cmd);
     echo "\n";
     switch ($cmd) {
