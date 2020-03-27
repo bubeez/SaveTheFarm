@@ -46,6 +46,10 @@ see what happens ;) </p>\n\n";
 
 // Play 25 rounds
 gameRound();
+gameRound();
+gameRound();
+gameRound();
+gameRound();
 
 
 // Game Is Over
