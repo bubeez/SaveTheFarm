@@ -18,3 +18,4 @@ function moveCupboard(){
         $moved_cupboard = TRUE;
     }
   }
+  
