@@ -11,7 +11,13 @@ function gameRound(){
     printStatus();
 
  //Read Command And Respond
-    $cmd = $_POST['cmd'];
+    echo "<p>
+            <form method="post" enctype="application/x-www-form-urlencoded">
+              <input type="text" name="cmd">
+              <input type="submit" value="Submit">
+            </form>
+          </p>"
+    $cmd = $_POST["cmd"];
     $cmd =  strtolower($cmd);
     echo "\n";
     switch ($cmd) {
