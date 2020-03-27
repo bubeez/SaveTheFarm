@@ -14,7 +14,7 @@ function gameRound(){
     echo "<p><form method="post">
             <input type="text" name="cmd">
             <input type="submit" value="Submit">
-          </form></p>
+          </form></p>";
     $cmd = $_POST;
     $cmd =  strtolower($cmd);
     echo "\n";
