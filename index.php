@@ -73,7 +73,7 @@ gameRound();
 
 
 // Game Is Over
-echo "\n**********ATTENTION***********\n The game is over!\n" ;
+echo "\n<p>**********ATTENTION***********</p>\n <p>The game is over!</p>\n" ;
 
 
 
