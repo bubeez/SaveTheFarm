@@ -11,7 +11,7 @@ function gameRound(){
     printStatus();
 
  //Read Command And Respond
-    $cmd = readline("> ");
+    $cmd = readline("<html><form method="post"><input type="text" name="cmd"><input type="submit" value="Submit"></form></html>");
     $cmd =  strtolower($cmd);
     echo "\n";
     switch ($cmd) {
